@@ -1,0 +1,92 @@
+#payment{
+    margin-top: 130px;
+    margin-bottom: 150px;
+}
+.backgroup-mobile{
+    background-color: #e0e0e0;
+    color: #263C90;
+}
+#payment #card-icon .card{
+    background-color: #e0e0e0;
+    color: #263C90;
+    width: 80%;
+    height: 100%;
+}
+#payment #card-icon .card-image{
+    max-width: 120px;
+    margin: 0 auto; 
+}
+#payment #card-icon .paypal-icon{
+    max-width: 230px;
+    margin: 0 auto; 
+}
+#payment #card-icon .card-description{
+    font-size: 17px ;
+}
+#payment .card{
+    border: none;
+}
+#payment .card .card-title{
+    font-size: 20px;
+}
+#payment .circles{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+#payment input::-webkit-outer-spin-button,
+#payment input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.active{
+    background-color: #263C90 !important;
+    color: white !important;
+}
+
+/* ======================================
+           START SCREEN MOBILE
+====================================== */
+@media only screen and (min-width: 375px) {
+   
+}
+@media only screen and (min-width: 425px) {
+   
+}
+@media only screen and (min-width: 768px) {
+   
+}
+
+/* ======================================
+         END SCREEN MOBILE
+====================================== */
+
+
+/* ======================================
+        START SCREEN TABLET
+====================================== */
+@media only screen and (min-width: 992px) {
+    #payment{
+        margin-top: 220px;
+    }
+    #payment #card-icon .card-description{
+        font-size: 22px ;
+    }
+
+}
+
+/* ======================================
+            END SCREEN TABLET
+====================================== */
+
+/* ======================================
+           START SCREEN DESTOP
+====================================== */
+@media only screen and (min-width: 1200px) {
+   
+}
+
+/* ======================================
+            END SCREEN DESTOP
+====================================== */

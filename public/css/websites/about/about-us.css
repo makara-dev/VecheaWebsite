@@ -1,0 +1,37 @@
+#about-infomation .info-about {
+    padding: 20px;
+}
+#about-infomation .titles, .our-team .titles{
+    font-size: 30px;
+    padding: 40px;
+}
+#about-infomation .desciption{
+    font-size: 16px;
+}
+
+/* ======================================
+        START SCREEN TABLET
+====================================== */
+@media only screen and (min-width: 992px) {
+    #about-infomation .titles, .our-team .titles{
+        font-size: 40px;
+    }
+  }
+
+/* ======================================
+            END SCREEN TABLET
+====================================== */
+
+/* ======================================
+           START SCREEN DESTOP
+====================================== */
+@media only screen and (min-width: 1024px) {
+    #about-infomation .desciption{
+        font-size: 16px;
+        padding: 10px 130px 10px 130px;
+    }
+  }
+
+/* ======================================
+            END SCREEN DESTOP
+====================================== */

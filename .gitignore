@@ -1,0 +1,21 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+
+Command to configure after cloning the project from GitHub:
+1. composer install
+2. npm install
+3. php artisan key:generate
+4. php artisan migrate:fresh (Make sure you have been create the DB and configure the name of DB in file .env already)
+5. php artisan db:seed

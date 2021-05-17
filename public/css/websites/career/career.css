@@ -1,0 +1,61 @@
+.career {
+  margin-top: 130px;
+}
+.career .title{
+  text-transform: uppercase;
+  font-size: 40px;
+  letter-spacing: 10px;
+}
+.career .input-mail-phon-career, .input-msg-upload{
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+}
+.career .msg {
+  grid-row: 1/5;
+}
+.career .file-upload>#file-input {
+  display: none !important;
+}
+.career .fa-upload{
+  position:relative;
+  bottom: 30px;
+  left: 90%;
+  cursor: pointer;
+}  
+.career .career-submission{
+  background-color: #3855C3;
+  color: #fff;
+}
+
+/* ======================================
+           START SCREEN MOBILE
+====================================== */
+@media (max-width: 767px) and (min-width: 320px){
+  .career .input-mail-phon-career, .input-msg-upload{
+    display: grid;
+    grid-template-columns: auto ;
+    column-gap: 10px;
+  }
+  .career .msg {
+    height: 150px !important; margin-bottom: 10px;
+  }
+  .career .phone-num {
+    margin-top: 15px;
+  }
+}
+/* ======================================
+         END SCREEN MOBILE
+====================================== */
+
+/* ======================================
+        START SCREEN TABLET
+====================================== */
+@media (min-width: 992px){
+  .career {
+    margin-top: 230px;
+  }
+}
+/* ======================================
+            END SCREEN TABLET
+====================================== */

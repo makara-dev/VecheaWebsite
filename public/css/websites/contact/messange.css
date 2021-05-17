@@ -1,0 +1,68 @@
+#messange input, textarea{
+    outline: none;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 14px;
+    font-family: inherit;
+    resize: none;
+    background-color:  #263C90;
+}
+#messange .input-group {
+    position: relative;
+    margin-bottom: 32px;
+    border-bottom: 1px solid #959595;
+}
+#messange .input-group label{
+   font-size: 12px;
+}
+#messange input::-webkit-outer-spin-button,
+#messange input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+#contact #messange{
+    margin-top: 40px;
+}
+#messange .cards{
+    padding: 30px 10px 15px 10px;
+}
+#messange .ver-line{
+    width: 95.5%; 
+    height: 1px; 
+    background-color: #959595;
+}
+#messange .d-flex .material-icons{
+    font-size: 23px; 
+    color: #959595;
+}
+
+/* ======================================
+            START SCREEN MOBILE
+====================================== */
+  
+@media only screen and (min-width: 425px) {
+#messange .cards{
+    padding: 40px 50px 30px 60px;
+    }
+}
+  
+/* ======================================
+        END SCREEN MOBILE
+====================================== */
+
+
+/* ======================================
+        START SCREEN TABLET
+====================================== */
+
+@media only screen and (min-width: 992px) {
+#contact #messange{
+    margin-top: 65px;
+}
+}
+
+/* ======================================
+        END SCREEN TABLET
+====================================== */

@@ -1,0 +1,82 @@
+#footer{
+    margin-top: 90px;
+}
+.footer .desciption{
+    color: #fff;
+    margin-top: 35px;
+    font-size: 12px;
+    opacity: 44%;
+    margin-bottom: 20px;
+} 
+#footer .social img{
+    padding-right: 20px;
+}
+#footer .desciption{
+    font-size: 7px;
+}
+#footer .subscribe .description{
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    resize: horizontal;
+}
+#footer .subscribe .input-group input, #footer .btn{
+    font-size: 10px;
+}
+
+/* ======================================
+           START SCREEN MOBILE
+====================================== */
+
+@media only screen and (min-width: 425px) {
+    #footer .subscribe .input-group input, #footer .btn{
+        font-size: 12px;
+    }
+    #footer .subscribe .fs-18{
+        font-size: 20px !important;
+    }
+}
+
+/* ======================================
+         END SCREEN MOBILE
+====================================== */
+
+
+/* ======================================
+        START SCREEN TABLET
+====================================== */
+
+@media only screen and (min-width: 992px) {
+    #footer .social img{
+        padding-right: 50px;
+    }
+    #footer .desciption{
+        font-size: 10px;
+    }
+    #footer .subscribe .description{
+        font-size: 15px;
+        white-space: normal;
+        overflow: visible;
+    }
+    #footer .subscribe .fs-18{
+        font-size: 25px !important;
+    }
+  }
+
+/* ======================================
+            END SCREEN TABLET
+====================================== */
+
+/* ======================================
+           START SCREEN DESTOP
+====================================== */
+
+@media only screen and (min-width: 1024px) {
+    #footer .subscribe .input-group input, #footer .btn{
+        font-size: 15px;
+    }
+  }
+
+/* ======================================
+            END SCREEN DESTOP
+====================================== */

@@ -1,0 +1,10 @@
+#view_blog .img_blog{
+    width: 100px; 
+    height: 50px; 
+    max-width: none;
+}
+#view_blog .truncate{
+    width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

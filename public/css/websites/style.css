@@ -1,0 +1,49 @@
+body{
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.bg-blue{
+    background-color: #263C90 !important;
+}
+.bg-blue-light{
+    background-color: #3855C3;
+}
+.color-blue{
+    color: #263C90 !important;
+}
+.text-uppercase{
+    text-transform: uppercase !important;
+}
+.color-gray{
+    color: #707070 !important;
+}
+.bg-gray{
+    background-color: #707070 !important;
+}
+.bg-skyblue{
+    background-color: #40C5E7;
+}
+.bg-orange{
+    background-color: #E79340;
+}
+.bg-purple{
+    background-color: #A740E7;
+}
+.color-skyblue{
+    color: #40C5E7;
+}
+.color-orange{
+    color: #E79340;
+}
+.color-purple{
+    color: #A740E7;
+}
+.border-radius-left{
+    border-radius: 20px 0px 0px 20px;
+}
+.border-radius-right{
+    border-radius: 0px 20px 20px 0px;
+}
+.border-radius{
+    border-radius: 20px;
+}

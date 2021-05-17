@@ -1,0 +1,59 @@
+#setup-domain{
+    margin-top: 130px;
+    margin-bottom: 150px;
+}
+#setup-domain #create-domain{
+    margin-top: 15px;
+}
+.bg-card{
+    background-color: #c9c8c8; 
+    border-radius: 16px;
+}
+#setup-domain #create-domain .card-title{
+    font-size: 19px;
+}
+#setup-domain #create-domain .bg-mobile{
+    background-color: #c9c8c8; 
+}
+#setup-domain #create-domain .padding-4{
+    padding: 1.5rem 0 1.5rem 0;
+}
+
+/* ======================================
+           START SCREEN MOBILE
+====================================== */
+
+/* ======================================
+         END SCREEN MOBILE
+====================================== */
+
+
+/* ======================================
+        START SCREEN TABLET
+====================================== */
+@media only screen and (min-width: 992px) {
+    #setup-domain{
+        margin-top: 220px;
+    }
+    #setup-domain #create-domain{
+        margin-top: 50px;
+    }
+    #setup-domain #create-domain .card-title{
+        font-size: 28px;
+    }
+    #setup-domain #create-domain .padding-4{
+        padding: 1.5rem;
+    }
+}
+
+/* ======================================
+            END SCREEN TABLET
+====================================== */
+
+/* ======================================
+           START SCREEN DESTOP
+====================================== */
+
+/* ======================================
+            END SCREEN DESTOP
+====================================== */

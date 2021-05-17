@@ -1,0 +1,51 @@
+/* client */
+#client .col-lg-2{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+#client .our-client-logo{
+    max-width: 147px; 
+    display: flex; 
+    flex-flow: row wrap;
+    overflow: hidden; 
+    margin: 0 auto;
+}
+#client .our-client{
+    font-size: 23px;
+    color: #7C7C7C;
+}
+/* ======================================
+           START SCREEN MOBILE
+====================================== */
+@media only screen and (min-width: 768px) {
+    #client .our-client{
+        font-size: 40px;
+        color: #7C7C7C;
+    }
+   
+}
+
+/* ======================================
+         END SCREEN MOBILE
+====================================== */
+
+/* ======================================
+        START SCREEN TABLET
+====================================== */
+
+@media only screen and (min-width: 992px) {
+    /* client */
+    #client .col-lg-2{
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    #client {
+        padding-top: 40px;
+       max-width: 825px;
+       margin: 0 auto;
+    }
+  }
+
+/* ======================================
+            END SCREEN TABLET
+====================================== */

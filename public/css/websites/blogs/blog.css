@@ -1,0 +1,51 @@
+#blog{
+    margin-top: 130px;
+}
+#blog .header-title{
+    font-size: 40px;
+}
+#blog .title-blog{
+    padding: 100px 0 100px 0;
+    font-size: 30px;
+}
+
+/* ======================================
+           START SCREEN MOBILE
+====================================== */
+@media only screen and (min-width: 425px) {
+    #blog{
+        margin-top: 170px;
+    }
+}
+
+/* ======================================
+         END SCREEN MOBILE
+====================================== */
+
+
+/* ======================================
+        START SCREEN TABLET
+====================================== */
+@media only screen and (min-width: 992px) {
+    #blog{
+        margin-top: 225px;
+    }
+   #blog .margin-top{
+    margin-top: 1.7rem !important;
+   }
+   #blog .header-title{
+        margin-bottom: 1.8rem;
+    }
+  }
+
+/* ======================================
+            END SCREEN TABLET
+====================================== */
+
+/* ======================================
+           START SCREEN DESTOP
+====================================== */
+
+/* ======================================
+            END SCREEN DESTOP
+====================================== */

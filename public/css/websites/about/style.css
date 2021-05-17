@@ -1,0 +1,59 @@
+#about{
+    margin-top: 100px;
+}
+#about .our-team .title{
+    padding: 40px 40px 20px 40px;
+}
+#about .our-team .col-lg-3{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+#about .image-our-team{
+    overflow: hidden;
+    max-width: 200px;
+    margin: 0 auto;
+}
+#about .bg-blue{
+   padding-bottom: 100px;
+}
+#about .staff-info .staff-name{
+  font-size: 14px;
+}
+#about .staff-info .staff-position{
+  font-size: 13px;
+  color: #7E7E7E;
+}
+#about .staff-info:hover{
+  background-color: white;
+  border-radius: 16px;
+}
+#about .staff-info:hover .staff-name{
+  color: #263C90 !important;
+}
+
+/* ======================================
+        START SCREEN TABLET
+====================================== */
+@media only screen and (min-width: 992px) {
+    #about .our-team .col-lg-3{
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+  }
+
+/* ======================================
+            END SCREEN TABLET
+====================================== */
+
+/* ======================================
+           START SCREEN DESTOP
+====================================== */
+@media only screen and (min-width: 1024px) {
+    #about{
+        margin-top: 180px;
+    }
+  }
+
+/* ======================================
+            END SCREEN DESTOP
+====================================== */

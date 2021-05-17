@@ -1,0 +1,71 @@
+#blog-detail{
+    margin-top: 130px;
+}
+#blog-detail .header-title{
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+#blog-detail .image-blog{
+    width: 100%;
+    overflow: hidden; 
+    justify-content: center;
+}
+#blog-detail .vertical-line{
+    width: 60%;
+    height: 2px;
+    background-color: #707070;
+    margin: 0 auto;
+}
+#blog-detail .request-proposal{
+    font-size: 25px;
+}
+#blog-detail .description-blog, .detail-blog, .info{
+    font-size: 16px;
+}
+
+/* ======================================
+           START SCREEN MOBILE
+====================================== */
+@media only screen and (min-width: 425px) {
+    #log-detail{
+        margin-top: 170px;
+    }
+    #blog-detail .request-proposal{
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #blog-detail .request-proposal{
+        font-size: 40px;
+    }
+}
+
+/* ======================================
+         END SCREEN MOBILE
+====================================== */
+
+
+/* ======================================
+        START SCREEN TABLET
+====================================== */
+@media only screen and (min-width: 992px) {
+    #blog-detail{
+        margin-top: 225px;
+    }
+    #blog-detail .header-title{
+        font-size: 40px;
+        letter-spacing: 15px;
+    }
+  }
+
+/* ======================================
+            END SCREEN TABLET
+====================================== */
+
+/* ======================================
+           START SCREEN DESTOP
+====================================== */
+
+/* ======================================
+            END SCREEN DESTOP
+====================================== */

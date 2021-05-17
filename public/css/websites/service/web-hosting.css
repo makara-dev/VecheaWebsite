@@ -1,0 +1,136 @@
+#hosting{
+    margin-top: 130px;
+    margin-bottom: 150px;
+}
+.icon-arrow-back .material-icons, .hosting-heading{
+    font-size: 30px;
+}
+.icon-arrow-back .material-icons{
+    padding-left: 15px;
+}
+.margin-top{
+    margin-top: 50px;
+}
+.hosting-title{
+    font-size: 25px;
+}
+.hosting-description{
+    font-size: 18px;
+}
+#hosting .card{
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px 0px #d8d8d8;
+    border-radius: 10px 10px 20px 20px;
+}
+#hosting .card, .card-footer{
+   border: none;
+}
+#hosting #domain{
+    margin-top: 20px;
+}
+#hosting #domain .card-title{
+    font-size: 40px;
+}
+#hosting #domain .price{
+    font-size: 46px;
+}
+#hosting #domain .card-text .text{
+    color: #4D4D4D;
+}
+#hosting #domain .card-text .icon-close{
+    color: #FF3B3B;
+}
+#hosting #domain .card-text .done{
+    color: #378D00;
+}
+#hosting .card a{
+    text-decoration: none;
+}
+#hosting #domain .card-footer{
+    font-size: 43px;
+    border-radius: 0 0 20px 20px;
+}
+
+/* ======================================
+           START SCREEN MOBILE
+====================================== */
+@media only screen and (min-width: 375px) {
+    #hosting #domain .card-text .text{
+        font-size: 16px;
+    }
+}
+@media only screen and (min-width: 425px) {
+    #hosting #domain .price{
+        font-size: 57px;
+    }
+    #hosting #domain .card-title{
+        font-size: 43px;
+    }
+    #hosting #domain .card-text .text{
+        padding-left: 25px !important;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #hosting #domain .card-text{
+       padding-left: 30%;
+    }
+}
+
+/* ======================================
+         END SCREEN MOBILE
+====================================== */
+
+
+/* ======================================
+        START SCREEN TABLET
+====================================== */
+@media only screen and (min-width: 992px) {
+    #hosting{
+        margin-top: 220px;
+    }
+    .icon-arrow-back .material-icons{
+        padding-left: 55px;
+    }
+    .icon-arrow-back .material-icons, .hosting-heading{
+        font-size: 40px;
+    }
+    .margin-top{
+        margin-top: 80px;
+    }
+    .hosting-title, .hosting-description{
+        font-size: 25px;
+    }
+    #hosting #domain{
+        margin-top: 50px;
+    }
+    #hosting #domain .card-text{
+        padding-left: 0;
+    }
+    #hosting #domain .price{
+        font-size: 53px;
+    }
+    #hosting #domain .card-text .text{
+        padding-left: 3px !important;
+    }
+}
+
+/* ======================================
+            END SCREEN TABLET
+====================================== */
+
+/* ======================================
+           START SCREEN DESTOP
+====================================== */
+@media only screen and (min-width: 1200px) {
+    #hosting #domain .price{
+        font-size: 57px;
+    }
+    #hosting #domain .card-text .text{
+        padding-left: 30px !important;
+    }
+}
+
+/* ======================================
+            END SCREEN DESTOP
+====================================== */

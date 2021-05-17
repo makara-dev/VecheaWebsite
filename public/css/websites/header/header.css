@@ -1,0 +1,242 @@
+#header{
+    background-color: #ffff;
+}
+#header .navbar-dark .navbar-nav .nav-link {
+    color: white;
+	text-transform: uppercase;
+}
+#header .mobile-offcanvas{
+	visibility: hidden;
+	transform:translateX(-100%);
+	display:block;
+	position: fixed;
+	top: 0; 
+	left:0;
+	height: 100%;
+	z-index: 1200;
+	width:80%;
+	overflow-x: hidden;
+	transition: all .3s ease 0s;
+	font-size: 20px; 
+    background-color: #263C90;
+    padding-top: 70px;
+    padding-left: 40px;
+    letter-spacing: 5px;
+}
+.contact-mobile{
+	visibility: hidden;
+	transform:translateX(100%);
+	border-radius:0; 
+	display:block;
+	position: fixed;
+	top: 0; 
+	right:0;
+	height: 100%;
+	z-index: 1200;
+	width:90%;
+	transition: visibility .2s ease-in-out, transform .2s ease-in-out;
+}
+#header .mobile-offcanvas.show, .contact-mobile.show{
+	visibility: visible;
+    transform: translateX(0);
+}  
+#header .offcanvas-buttom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 70px;
+    color: #707070;
+}
+#header .offcanvas-buttom .material-icons{
+   font-size: 40px;
+}
+#header .screen-overlay {
+    width:0%;
+    height: 100%;
+    z-index: 30;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity:0;
+    visibility:hidden;
+    background-color: rgba(34, 34, 34, 0.6);
+    transition: all .3s ease 0s;
+   }
+   .screen-overlay .btn-close {
+       margin-top: 40px;
+       margin-left: 30%;
+       font-weight: bold;
+       color: white;
+       opacity: 1;
+       cursor: pointer;
+   }
+#header .screen-overlay.show {
+    transition: opacity .5s ease, width 0s;
+    opacity:1;
+    width:100%;
+    visibility:visible;
+}
+#header .d-lg-none .material-icons{
+    font-size: 30px;
+    margin-top: 25px;
+}
+#header .img-fluid{
+    height: 60px;
+    width: auto;
+}
+.applayHeaderColor {
+    background-color: rgba(188,188,188,.97) !important;
+}
+#header .touch .heading1{
+    padding-left: 53px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+#header .touch .logo-img{
+    max-width: 250px; 
+    margin:  0 auto; 
+}
+#header .touch p{
+    font-size: 11px;
+}
+#header .touch .row .pl{
+    padding-left: 2rem;
+}
+  #header .touch .material-icons{
+    font-size: 45px;
+  }
+  #header .contact-wrapper {
+    min-height: 100vh;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+    opacity: 1;
+    display: inline;
+  }
+ /* ======================================
+           START SCREEN MOBILE
+====================================== */
+
+@media only screen and (min-width: 768px) {
+    #header .touch .logo-img{
+        padding-left: 0 !important;
+    }
+    #header .touch .heading1{
+        font-size: 27px;
+        padding-left: 0;
+      }
+   
+}
+/* ======================================
+         END SCREEN MOBILE
+====================================== */
+
+
+/* ======================================
+        START SCREEN TABLET
+====================================== */
+
+@media only screen and (min-width: 992px) {
+    #header #navbar_main ul { 
+        margin-top: 25px;
+        padding: 0;
+        list-style: none;
+        float: right !important;
+    }
+    #header #navbar_main li {
+        display: inline-block;
+        position: relative;
+        line-height: 20px;
+    }
+    #header #navbar_main li a {
+        display: block;
+        padding: 10px 20px;
+        margin: 0 auto;
+        font-size: 16px;
+        color: #263C90;
+    }
+    #header .navbar{
+        display: block;
+    }
+    #header{
+        padding-left: 20px;
+    }
+    #header .img-fluid{
+        margin-top: 8px;
+    }
+    #header a.nav-link.active {
+        border-radius: 10px;
+    }
+    #header a.nav-link.active::before {
+        content: "";
+        position: absolute;
+        width: 80%;
+        height: 3px;
+        background-color: #263C90;
+        margin-top: 25px;
+        right: 5px;
+        left: 10px;
+    }
+    .contact-mobile{
+        width:60%;
+    }
+    #header .touch .heading1{
+        margin-top: 50px;
+      }
+    #header .touch .borders{
+        border-left: solid 1.5px #fff; 
+        border-right: solid 1.5px #fff;
+      }
+      #header .touch .row .pl{
+        padding-left: 0;
+      }
+    #header .touch .logo-img{
+        max-width: 440px; 
+    }
+    #header .touch .container{
+        max-width: 700px;
+        height: 100vh;
+    }
+    #header .touch .positions{
+        margin-top: 20%;
+    }
+    #header .touch .positions .row{
+        margin-top: 60px !important; 
+    }
+    
+  }
+
+/* ======================================
+            END SCREEN TABLET
+====================================== */
+
+/* ======================================
+           START SCREEN DESTOP
+====================================== */
+
+@media only screen and (min-width: 1137px) {
+    #header #navbar_main li a {
+        padding: 10px 25px;
+    }
+    #header .row{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+  }
+@media only screen and (min-width: 1920px) {
+    #header .touch .positions{
+        margin-top: 60%;
+    }
+    #header .touch .container{
+        max-width: 780px; 
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .screen-overlay .btn-close {
+        margin-left: 20%;
+    }
+  }
+
+/* ======================================
+            END SCREEN DESTOP
+====================================== */
